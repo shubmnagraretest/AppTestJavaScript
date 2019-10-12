@@ -4,6 +4,7 @@ const PORT = 1337;
 
 function handleRequest(request , response){
     console.log(request.url);
+    console.log(request.url);
     response.end('It works!! Path hit: '  + request.url);
 }
 
